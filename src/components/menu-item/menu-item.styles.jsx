@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MenuItemContainer = styled.div`
-	height: ${({ size }) => (size ? '380px' : '240px')}
+	height: ${({ size }) => (size ? '380px' : '240px')};
 	min-width: 30%;
 	overflow: hidden;
 	flex: 1 1 auto;
@@ -44,7 +44,8 @@ export const BackgroundImageContainer = styled.div`
 
 export const ContentContainer = styled.div`
   height: 90px;
-  padding: 0 25px;
+  max-width: 31%;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,6 +54,7 @@ export const ContentContainer = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
+  text-align: center;
 `;
 
 export const ContentTitle = styled.span`
